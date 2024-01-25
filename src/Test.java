@@ -15,6 +15,19 @@ public class Test {
 		
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
+		
+		
+		Person saburo = new Person("saburo");
+		System.out.println(saburo.name);
+		System.out.println(saburo.age);
+		
+		Person person = new Person(25);
+		System.out.println(person.name);
+		System.out.println(person.age);
+		
+		Person hanako = new Person(17, "hanako");
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
 
 	}
 
