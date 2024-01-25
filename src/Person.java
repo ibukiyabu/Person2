@@ -13,5 +13,23 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
+	
+	//コンストラクタ3
+	public Person(String name) {
+		this.name = name;
+		this.age = 0;
+	}
+	
+	//コンストラクタ4
+	public Person(int age){
+		this.name = "名前なし";
+		this.age = age;
+	}
+	
+	//コンストラクタ5
+	public Person(int age, String name) {
+		this.name = name;
+		this.age = age;
+	}
 
 }
